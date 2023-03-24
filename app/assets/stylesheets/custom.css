@@ -1,0 +1,321 @@
+.main-menu,
+.main-menu * {
+  box-sizing: border-box;
+}
+.main-menu {
+  background: #011211;
+  width: 245px;
+  height: 874px;
+  position: relative;
+  box-shadow: inset -3px 0px 0px 0px rgba(188, 0, 49, 1);
+  overflow: hidden;
+}
+.div {
+  border-style: solid;
+  border-color: #09651c;
+  border-width: 0px 3px 0px 0px;
+  padding: 0px 3px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 242px;
+  height: 39px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.li {
+  background: #09651c;
+  padding: 6.5px 190.96px 7.5px 14.04px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 242px;
+  height: 39px;
+  position: relative;
+}
+.home {
+  color: #ffffff;
+  text-align: left;
+  font: 400 13px/25px "Inter", sans-serif;
+  position: absolute;
+  left: 31px;
+  top: 15px;
+  width: 37px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.house {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 7px;
+  top: 10px;
+}
+.union {
+  position: absolute;
+  left: 0.62px;
+  top: 1.51px;
+  overflow: visible;
+}
+.div2 {
+  border-style: solid;
+  border-color: #09651c;
+  border-width: 0px 3px 0px 0px;
+  width: 245px;
+  height: 186px;
+  position: absolute;
+  left: 0px;
+  top: 39px;
+}
+.menu-header {
+  background: #05310a;
+  width: 242px;
+  height: 26px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ul {
+  width: 242px;
+  height: 170px;
+  position: absolute;
+  left: 0px;
+  top: 26px;
+}
+.menu-item {
+  border-style: solid;
+  border-color: #011211;
+  border-width: 0px 0px 1px 0px;
+  padding: 6.5px 179.88px 8.5px 14.12px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.events {
+  color: #ffffff;
+  text-align: left;
+  font: 400 13px/25px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu-item2 {
+  border-style: solid;
+  border-color: #011211;
+  border-width: 0px 0px 1px 0px;
+  padding: 6.5px 183.01px 8.5px 14.99px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+}
+.stations {
+  color: #ffffff;
+  text-align: left;
+  font: 400 12px/25px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu-item3 {
+  border-style: solid;
+  border-color: #011211;
+  border-width: 0px 0px 1px 0px;
+  padding: 6.5px 191.81px 8.5px 15.19px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+}
+.shakemap {
+  color: #ffffff;
+  text-align: left;
+  font: 400 12px/25px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu-item4 {
+  border-style: solid;
+  border-color: #011211;
+  border-width: 0px 0px 1px 0px;
+  padding: 6.5px 178.89px 8.5px 15.11px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 120px;
+}
+.shakecast {
+  color: #ffffff;
+  text-align: left;
+  font: 400 12px/25px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.data {
+  color: #ffffff;
+  text-align: left;
+  font: 400 10px/25px "Inter", sans-serif;
+  position: absolute;
+  left: 10px;
+  top: 1px;
+  width: 108px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div3 {
+  border-style: solid;
+  border-color: #09651c;
+  border-width: 0px 3px 0px 0px;
+  width: 248px;
+  height: 105px;
+  position: absolute;
+  left: -3px;
+  top: 217px;
+}
+.menu-header2 {
+  background: #05310a;
+  width: 248px;
+  height: 26px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ul2 {
+  width: 242px;
+  height: 79px;
+  position: absolute;
+  left: 0px;
+  top: 26px;
+}
+.a {
+  border-style: solid;
+  border-color: #011211;
+  border-width: 0px 0px 1px 0px;
+  padding: 6.5px 166.25px 8.5px 15.75px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.staff {
+  color: #ffffff;
+  text-align: left;
+  font: 400 12px/25px "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.history {
+  color: #ffffff;
+  text-align: left;
+  font: 400 13px/25px "Inter", sans-serif;
+  position: absolute;
+  left: 14.12px;
+  top: 46.5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-us {
+  color: #ffffff;
+  text-align: left;
+  font: 400 10px/26px "Inter", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  right: 169.88px;
+  left: 13px;
+  bottom: 87px;
+  top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div4 {
+  border-style: solid;
+  border-color: #09651c;
+  border-width: 0px 3px 0px 0px;
+  width: 251px;
+  height: 342px;
+  position: absolute;
+  left: -6px;
+  top: 322px;
+}
+.menu-header3 {
+  background: #05310a;
+  width: 251px;
+  height: 26px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.sign-in {
+  color: #ffffff;
+  text-align: left;
+  font: 400 12px/25px "Inter", sans-serif;
+  position: absolute;
+  left: 14px;
+  top: 36px;
+  width: 93.11px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.staff-login {
+  color: #ffffff;
+  text-align: left;
+  font: 400 10px/26px "Inter", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  right: 138px;
+  left: 7px;
+  bottom: 316px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sidebar {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
