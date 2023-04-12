@@ -1,95 +1,160 @@
 <%= stylesheet_link_tag 'custom' %>
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.1/css/bootstrap.min.css" integrity="sha512-P4n4j8P+4U/mvSUG6i61UQh/x8WjjsPL6v4i4m4ayJ4KjAihGcSpF42z+yh0JX2l+0ZieBvSlJYRLnz5N5O5OQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<div class="main-menu">
+<!-- JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js" integrity="sha512-wJljaV7vQwcaLjdfnNdQ8s+uJlkC1fKdw+T7I9b/zECWZ7IZJ3uY3C3O7EgNpGUb/w66kaJtlfX9V7KM/8Z2+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+<div class="div-logo">
+ <div class="rectangle-1"></div
+ <img class="prsmplogo2-1" src="logos/PRSMPLogoMono.png" />
+
+</div>
+
+<div class="main-menu sidebar">
+ 
   <div class="div">
-    <div class="li">
-      <div class="home">Home</div>
-      <svg
-        class="house"
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M10.8839 1.87506C10.3957 1.3869 9.60427 1.3869 9.11612 1.87506L0.808058 10.1831C0.563981 10.4272 0.563981 10.8229 0.808058 11.067C1.05214 11.3111 1.44786 11.3111 1.69194 11.067L2.5 10.2589V16.8751C2.5 17.9106 3.33947 18.7501 4.375 18.7501H15.625C16.6605 18.7501 17.5 17.9106 17.5 16.8751V10.2589L18.3081 11.067C18.5521 11.3111 18.9479 11.3111 19.1919 11.067C19.436 10.8229 19.436 10.4272 19.1919 10.1831L16.25 7.24117V3.12506C16.25 2.77988 15.9702 2.50006 15.625 2.50006H14.375C14.0298 2.50006 13.75 2.77988 13.75 3.12506V4.74117L10.8839 1.87506ZM16.25 9.00894V16.8751C16.25 17.2202 15.9702 17.5001 15.625 17.5001H4.375C4.02982 17.5001 3.75 17.2202 3.75 16.8751V9.00894L10 2.75894L16.25 9.00894Z"
-          fill="white"
-        />
-      </svg>
-    </div>
+  <div class="li">
+   <a class="home" aria-current="page" href="/">Home</a>
+   <svg
+    class="house"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    >
+         <path
+           d="M10.8839 1.87506C10.3957 1.3869 9.60427 1.3869 9.11612 1.87506L0.808058 10.1831C0.563981 10.4272 0.563981 10.8229 0.808058 11.067C1.05214 11.3111 1.44786 11.3111 1.69194 11.067L2.5 10.2589V16.8751C2.5 17.9106 3.33947 18.7501 4.375 18.7501H15.625C16.6605 18.7501 17.5 17.9106 17.5 16.8751V10.2589L18.3081 11.067C18.5521 11.3111 18.9479 11.3111 19.1919 11.067C19.436 10.8229 19.436 10.4272 19.1919 10.1831L16.25 7.24117V3.12506C16.25 2.77988 15.9702 2.50006 15.625 2.50006H14.375C14.0298 2.50006 13.75 2.77988 13.75 3.12506V4.74117L10.8839 1.87506ZM16.25 9.00894V16.8751C16.25 17.2202 15.9702 17.5001 15.625 17.5001H4.375C4.02982 17.5001 3.75 17.2202 3.75 16.8751V9.00894L10 2.75894L16.25 9.00894Z"
+           fill="white"
+         />
+   </svg>
+  </div>
   </div>
 
-  <div class="div2">
-    <div class="menu-header"></div>
 
-    <div class="ul">
-      <div class="menu-item">
-        <div class="events">Events</div>
-      </div>
 
-      <div class="menu-item2">
-        <div class="stations">Stations</div>
-      </div>
 
-      <div class="menu-item3">
-        <div class="shakemap">ShakeMap</div>
-      </div>
+    <div class="div2">
+     <div class="menu-header"></div>
 
-      <div class="menu-item4">
-        <div class="shakecast">ShakeCast</div>
-      </div>
-    </div>
-
-    <div class="data">DATA</div>
-  </div>
-
-  <div class="div3">
-    <div class="menu-header2"></div>
-
-    <div class="ul2">
-      <div class="a">
-        <div class="staff">Staff</div>
-      </div>
-
-      <div class="history">History</div>
+     <div class="ul">
+       <div class="menu-item">
+         <a class="events" href='/events'>Events</a>
+       </div>
+ 
+       <div class="menu-item2">
+         <a class="stations" href='#'>Stations</a>
+       </div>
+ 
+       <div class="menu-item3">
+         <a class="shakemap" href='#'>ShakeMap</a>
+       </div>
+ 
+       <div class="menu-item4" href='#'>
+         <a class="shakecast" href='#'>ShakeCast</a>
+       </div>
+     </div>
+ 
+     <div class="data">DATA</div>
     </div>
 
-    <div class="about-us">ABOUT US</div>
-  </div>
+    <div class="div3">
+     <div class="menu-header2"></div>
 
-  <div class="div4">
-    <div class="menu-header3"></div>
+     <div class="ul2">
+       <div class="a">
+         <a class="staff" href='#'>Staff</a>
+       </div>
 
-    <div class="sign-in">Sign In</div>
+       <a class="history" href='#'>History</a>
+     </div>
 
-    <div class="staff-login">STAFF LOGIN</div>
-  </div>
+     <div class="about-us">ABOUT US</div>
+    </div>
+
+    <div class="div4">
+     <div class="menu-header3"></div>
+
+     <a class="sign-in" href='#'>Sign In</a>
+
+     <div class="staff-login">STAFF LOGIN</div>
+
+    </div>
+   </div>   
 </div>
 
 
-<div class="container-fluid">
-  <div class="row">
-    <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
-      <div class="position-sticky pt-3">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">DATA</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">STAFF LOGIN</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-      <!-- main content here -->
-    </main>
-  </div>
+<!-- Map -->
+<div id="map-container"
+ <html>
+ <head>
+    <meta charset="utf-8" />
+    <title>Recent Events</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+      <style>
+        #mapid { position: absolute;
+        top: 55%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        height: 50%;
+        width: 60%;
+        }
+      </style>
+ </head>
+ <body>
+    <div id="mapid"></div>
+    <script>
+        var map = L.map('mapid').setView([18.200178, -66.664513], 8);
+        var esriSat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+          attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
+          maxZoom: 19
+        });
+        esriSat.addTo(map);
+    </script>
+ </body>
+ </html>
 </div>
+
+<%= stylesheet_link_tag 'table' %>
+<div id="table-container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Region</th>
+        <th>Mag.</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Depth</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @eqs.each do |eq| %>
+        <tr>
+         <td><%= eq.date %></td>
+         <td><%= eq.id %></td>
+         <td><%= eq.id %></td>
+         <td><%= eq.latitude %></td>
+         <td><%= eq.longitude %></td>
+         <td><%= eq.depth %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/page1">Page 1</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Page 2</li>
+  </ol>
+</nav>
+
+

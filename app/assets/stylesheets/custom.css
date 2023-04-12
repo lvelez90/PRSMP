@@ -1,14 +1,13 @@
-.main-menu,
-.main-menu * {
-  box-sizing: border-box;
-}
+
 .main-menu {
   background: #011211;
   width: 245px;
   height: 874px;
-  position: relative;
-  box-shadow: inset -3px 0px 0px 0px rgba(188, 0, 49, 1);
+  display: flex;
+  position: absolute;
+  box-shadow: inset -3px 0px 0px 0px #09651c;
   overflow: hidden;
+
 }
 .div {
   border-style: solid;
@@ -203,7 +202,7 @@
   width: 248px;
   height: 105px;
   position: absolute;
-  left: -3px;
+  left: 0px;
   top: 217px;
 }
 .menu-header2 {
@@ -234,6 +233,12 @@
   position: absolute;
   left: 0px;
   top: 0px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color:darkgray;
 }
 .staff {
   color: #ffffff;
@@ -276,7 +281,7 @@
   width: 251px;
   height: 342px;
   position: absolute;
-  left: -6px;
+  left: 0px;
   top: 322px;
 }
 .menu-header3 {
@@ -319,3 +324,50 @@
   position: sticky;
   top: 0;
 }
+.div-logo {
+  background: #cad7cd;
+  border-style: solid;
+  border-color: #09651c;
+  border-width: 0px 3px 0px 0px;
+  width: 245px;
+  height: 151px;
+  position: relative;
+}
+.rectangle-1 {
+  background: #09651c;
+  width: 3px;
+  height: 874px;
+  position: absolute;
+  left: 242px;
+  top: 150px;
+}
+
+#map-container {
+  position: center;
+  height: 50vh;
+  width: 75vh;
+}
+
+
+
+.breadcrumb {
+  background-color: #f8f9fa;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: -150vh;
+}
+
+.breadcrumb-item {
+  font-weight: 400;
+}
+
+.breadcrumb-item a {
+  color: #6c757d;
+}
+
+.breadcrumb-item.active {
+  color: #495057;
+}
+
+

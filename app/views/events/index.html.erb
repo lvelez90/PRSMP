@@ -1,0 +1,306 @@
+<%= stylesheet_link_tag 'custom' %>
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.1/css/bootstrap.min.css" integrity="sha512-P4n4j8P+4U/mvSUG6i61UQh/x8WjjsPL6v4i4m4ayJ4KjAihGcSpF42z+yh0JX2l+0ZieBvSlJYRLnz5N5O5OQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js" integrity="sha512-wJljaV7vQwcaLjdfnNdQ8s+uJlkC1fKdw+T7I9b/zECWZ7IZJ3uY3C3O7EgNpGUb/w66kaJtlfX9V7KM/8Z2+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+<div class="div-logo">
+ <div class="rectangle-1"></div
+ <img class="prsmplogo2-1" src="logos/PRSMPLogoMono.png" />
+
+</div>
+
+<div class="main-menu sidebar">
+ 
+  <div class="div">
+  <div class="li">
+   <a class="home" aria-current="page" href="#">Home</a>
+   <svg
+    class="house"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    >
+         <path
+           d="M10.8839 1.87506C10.3957 1.3869 9.60427 1.3869 9.11612 1.87506L0.808058 10.1831C0.563981 10.4272 0.563981 10.8229 0.808058 11.067C1.05214 11.3111 1.44786 11.3111 1.69194 11.067L2.5 10.2589V16.8751C2.5 17.9106 3.33947 18.7501 4.375 18.7501H15.625C16.6605 18.7501 17.5 17.9106 17.5 16.8751V10.2589L18.3081 11.067C18.5521 11.3111 18.9479 11.3111 19.1919 11.067C19.436 10.8229 19.436 10.4272 19.1919 10.1831L16.25 7.24117V3.12506C16.25 2.77988 15.9702 2.50006 15.625 2.50006H14.375C14.0298 2.50006 13.75 2.77988 13.75 3.12506V4.74117L10.8839 1.87506ZM16.25 9.00894V16.8751C16.25 17.2202 15.9702 17.5001 15.625 17.5001H4.375C4.02982 17.5001 3.75 17.2202 3.75 16.8751V9.00894L10 2.75894L16.25 9.00894Z"
+           fill="white"
+         />
+   </svg>
+  </div>
+  </div>
+
+
+
+
+    <div class="div2">
+     <div class="menu-header"></div>
+
+     <div class="ul">
+       <div class="menu-item">
+         <a class="events" href='#'>Events</a>
+       </div>
+ 
+       <div class="menu-item2">
+         <a class="stations" href='#'>Stations</a>
+       </div>
+ 
+       <div class="menu-item3">
+         <a class="shakemap" href='#'>ShakeMap</a>
+       </div>
+ 
+       <div class="menu-item4" href='#'>
+         <a class="shakecast" href='#'>ShakeCast</a>
+       </div>
+     </div>
+ 
+     <div class="data">DATA</div>
+    </div>
+
+    <div class="div3">
+     <div class="menu-header2"></div>
+
+     <div class="ul2">
+       <div class="a">
+         <a class="staff" href='#'>Staff</a>
+       </div>
+
+       <a class="history" href='#'>History</a>
+     </div>
+
+     <div class="about-us">ABOUT US</div>
+    </div>
+
+    <div class="div4">
+     <div class="menu-header3"></div>
+
+     <a class="sign-in" href='#'>Sign In</a>
+
+     <div class="staff-login">STAFF LOGIN</div>
+
+    </div>
+   </div>   
+</div>
+
+
+<!-- Map -->
+
+<div id="map-container"
+ <html>
+ <head>
+    <meta charset="utf-8" />
+    <title>Recent Events</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+      <style>
+        #mapid { position: absolute;
+        top: 48%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        height: 42%;
+        width: 30%;
+        }
+      </style>
+ </head>
+ <body>
+    <div id="mapid"></div>
+    <script>
+        var map = L.map('mapid').setView([18.200178, -66.664513], 8);
+        var esriSat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+          attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
+          maxZoom: 19
+        });
+        esriSat.addTo(map);
+    </script>
+ </body>
+ </html>
+</div>
+
+<%= stylesheet_link_tag 'table' %>
+<div id="table-container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Region</th>
+        <th>Mag.</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Depth</th>
+      </tr>
+    </thead>
+    <tbody>
+   
+    </tbody>
+  </table>
+</div>
+
+<!-- Breadcrumbs -->
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/page1">Page 1</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Page 2</li>
+  </ol>
+</nav>
+
+<!-- Input Box -->
+<%= stylesheet_link_tag 'input-box' %>
+
+<div class="div">
+  <div class="rectangle-2"></div>
+
+  <div class="group-1">
+    <div class="dropdown-trigger">
+      <div class="text-text">
+        <div class="text">{text}</div>
+      </div>
+      <svg
+        class="icon-wrapper"
+        width="10"
+        height="12"
+        viewBox="0 0 10 12"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.15203 3.51797H8.31498C8.25806 3.51797 8.20449 3.54588 8.171 3.59164L5.00025 7.96217L1.82949 3.59164C1.796 3.54588 1.74243 3.51797 1.68551 3.51797H0.84846C0.775916 3.51797 0.733505 3.60056 0.775916 3.65972L4.71118 9.08494C4.85404 9.28137 5.14645 9.28137 5.28819 9.08494L9.22346 3.65972C9.26699 3.60056 9.22458 3.51797 9.15203 3.51797Z"
+          fill="black"
+          fill-opacity="0.85"
+        />
+      </svg>
+    </div>
+
+    <div class="station-">Station:</div>
+  </div>
+
+  <div class="date-picker">
+    <div class="input">
+      <div class="input-left">2020-11-08</div>
+    </div>
+
+    <div class="input-seperator-picker-separator">
+      <svg
+        class="swapright"
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.6422 9.31563L11.0797 6.06563C11.033 6.00629 10.9734 5.95832 10.9055 5.92531C10.8375 5.89229 10.763 5.87509 10.6875 5.875H9.675C9.57031 5.875 9.5125 5.99531 9.57656 6.07812L11.8313 8.9375H2.375C2.30625 8.9375 2.25 8.99375 2.25 9.0625V10C2.25 10.0687 2.30625 10.125 2.375 10.125H13.2484C13.6672 10.125 13.9 9.64375 13.6422 9.31563Z"
+          fill="black"
+          fill-opacity="0.25"
+        />
+      </svg>
+    </div>
+
+    <div class="input2">
+      <div class="input-right">2020-12-23</div>
+    </div>
+
+    <div class="suffix">
+      <svg
+        class="calendar"
+        width="14"
+        height="14"
+        viewBox="0 0 14 14"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g clip-path="url(#clip0_143_317)">
+          <path
+            d="M12.7502 1.87689H10.1252V0.876892C10.1252 0.808142 10.069 0.751892 10.0002 0.751892H9.12525C9.05649 0.751892 9.00025 0.808142 9.00025 0.876892V1.87689H5.00024V0.876892C5.00024 0.808142 4.94399 0.751892 4.87524 0.751892H4.00024C3.93149 0.751892 3.87524 0.808142 3.87524 0.876892V1.87689H1.25024C0.973682 1.87689 0.750244 2.10033 0.750244 2.37689V12.7519C0.750244 13.0285 0.973682 13.2519 1.25024 13.2519H12.7502C13.0268 13.2519 13.2502 13.0285 13.2502 12.7519V2.37689C13.2502 2.10033 13.0268 1.87689 12.7502 1.87689ZM12.1252 12.1269H1.87524V6.18939H12.1252V12.1269ZM1.87524 5.12689V3.00189H3.87524V3.75189C3.87524 3.82064 3.93149 3.87689 4.00024 3.87689H4.87524C4.94399 3.87689 5.00024 3.82064 5.00024 3.75189V3.00189H9.00025V3.75189C9.00025 3.82064 9.05649 3.87689 9.12525 3.87689H10.0002C10.069 3.87689 10.1252 3.82064 10.1252 3.75189V3.00189H12.1252V5.12689H1.87524Z"
+            fill="black"
+            fill-opacity="0.25"
+          />
+        </g>
+        <defs>
+          <clipPath id="clip0_143_317">
+            <rect width="14" height="14" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
+  </div>
+
+  <div class="dropdown-trigger2">
+    <div class="text-text">
+      <div class="text">{text}</div>
+    </div>
+    <svg
+      class="icon-wrapper2"
+      width="10"
+      height="12"
+      viewBox="0 0 10 12"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9.15203 3.51797H8.31498C8.25806 3.51797 8.20449 3.54588 8.171 3.59164L5.00025 7.96217L1.82949 3.59164C1.796 3.54588 1.74243 3.51797 1.68551 3.51797H0.84846C0.775916 3.51797 0.733505 3.60056 0.775916 3.65972L4.71118 9.08494C4.85404 9.28137 5.14645 9.28137 5.28819 9.08494L9.22346 3.65972C9.26699 3.60056 9.22458 3.51797 9.15203 3.51797Z"
+        fill="black"
+        fill-opacity="0.85"
+      />
+    </svg>
+  </div>
+
+  <div class="format-">Format:</div>
+
+  <div class="frame">
+    <div class="frame2">
+      <div class="frame3">
+        <div class="checkbox-input">
+          <div class="wrapper">
+            <div class="border"></div>
+
+            <div class="bg"></div>
+            <svg
+              class="check"
+              width="12"
+              height="9"
+              viewBox="0 0 12 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.10533 8.2447L5.08771 8.26232L0.687866 3.86247L2.12054 2.42979L5.10539 5.41464L9.87941 0.640625L11.3121 2.0733L5.12301 8.26238L5.10533 8.2447Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="hne">HNE</div>
+    </div>
+
+    <div class="frame4">
+      <div class="frame3">
+        <div class="checkbox-input2">
+          <div class="bg2"></div>
+        </div>
+      </div>
+
+      <div class="hnn">HNN</div>
+    </div>
+
+    <div class="frame5">
+      <div class="frame3">
+        <div class="checkbox-input2">
+          <div class="bg2"></div>
+        </div>
+      </div>
+
+      <div class="hnz">HNZ</div>
+    </div>
+  </div>
+
+  <div class="channels-">Channels:</div>
+</div>

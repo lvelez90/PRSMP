@@ -1,0 +1,340 @@
+
+.div {
+  width: 535px;
+  height: 365px;
+  position: absolute;
+  overflow: hidden;
+  left: 35vh;
+  top: 25vh;
+}
+.rectangle-2 {
+  background: #f6f9f7;
+  width: 535px;
+  height: 360px;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+}
+.group-1 {
+  width: 138px;
+  height: 24px;
+  position: static;
+}
+.dropdown-trigger {
+  background: var(--neutral-1, #ffffff);
+  border-radius: 2px;
+  border-style: solid;
+  border-color: var(--neutral-5, #d9d9d9);
+  border-width: 1px;
+  padding: 1px 8px 1px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 82px;
+  position: absolute;
+  left: 68px;
+  top: 57px;
+  box-shadow: var(
+    --drop-shadow-button-secondary-box-shadow,
+    0px 2px 0px 0px rgba(0, 0, 0, 0.02)
+  );
+  overflow: hidden;
+}
+.text-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.text {
+  color: var(--character-primary-85, rgba(0, 0, 0, 0.85));
+  text-align: left;
+  font: var(--body-regular, 400 14px/22px "Roboto", sans-serif);
+  position: relative;
+}
+.icon-wrapper {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.station- {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/22px "Roboto", sans-serif;
+  position: absolute;
+  left: 12px;
+  top: 57px;
+  width: 112px;
+  height: 24px;
+}
+.date-picker {
+  background: var(--neutral-1, #ffffff);
+  border-radius: 2px;
+  border-style: solid;
+  border-color: var(--neutral-5, #d9d9d9);
+  border-width: 1px;
+  padding: 0px 8px 0px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 256px;
+  position: absolute;
+  left: 12px;
+  top: 19px;
+}
+.input {
+  padding: 1px 0px 1px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.input-left {
+  color: var(--character-title-85, rgba(0, 0, 0, 0.85));
+  text-align: left;
+  font: var(--body-regular, 400 14px/22px "Roboto", sans-serif);
+  position: relative;
+}
+.input-seperator-picker-separator {
+  opacity: 0.8700000047683716;
+  padding: 1px 8px 1px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 32px;
+  position: relative;
+}
+.swapright {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.input2 {
+  padding: 1px 0px 1px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.input-right {
+  color: var(--character-title-85, rgba(0, 0, 0, 0.85));
+  text-align: left;
+  font: var(--body-regular, 400 14px/22px "Roboto", sans-serif);
+  position: relative;
+}
+.suffix {
+  padding: 0px 0px 0px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.calendar {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.dropdown-trigger2 {
+  background: var(--neutral-1, #ffffff);
+  border-radius: 2px;
+  border-style: solid;
+  border-color: var(--neutral-5, #d9d9d9);
+  border-width: 1px;
+  padding: 1px 8px 1px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90px;
+  position: absolute;
+  left: 68px;
+  top: 95px;
+  box-shadow: var(
+    --drop-shadow-button-secondary-box-shadow,
+    0px 2px 0px 0px rgba(0, 0, 0, 0.02)
+  );
+  overflow: hidden;
+}
+.icon-wrapper2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.format- {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/22px "Roboto", sans-serif;
+  position: absolute;
+  left: 12px;
+  top: 95px;
+  width: 112px;
+  height: 24px;
+}
+.frame {
+  width: 226px;
+  height: 22px;
+  position: absolute;
+  left: 13px;
+  top: 153px;
+}
+.frame2 {
+  width: 68px;
+  height: 22px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame3 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 3.05px;
+}
+.checkbox-input {
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: -0.41px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.border {
+  border-radius: 2px;
+  border-style: solid;
+  border-color: #1890ff;
+  border-width: 1px;
+  flex-shrink: 0;
+  position: absolute;
+  right: -4px;
+  left: -4px;
+  bottom: -4px;
+  top: -4px;
+}
+.bg {
+  background: var(--primary-6, #1890ff);
+  border-radius: 2px;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.check {
+  flex-shrink: 0;
+  position: absolute;
+  left: calc(50% - 5.31px);
+  top: calc(50% - 3px);
+  overflow: visible;
+}
+.hne {
+  color: rgba(0, 0, 0, 0.85);
+  text-align: left;
+  font: 400 14px/22px "Roboto", sans-serif;
+  position: absolute;
+  left: 24px;
+  top: -0.36px;
+  width: 36px;
+}
+.frame4 {
+  width: 62px;
+  height: 22px;
+  position: absolute;
+  left: 76px;
+  top: 0px;
+}
+.checkbox-input2 {
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0px;
+  top: -0.41px;
+}
+.bg2 {
+  background: var(--neutral-1, #ffffff);
+  border-radius: 2px;
+  border-style: solid;
+  border-color: var(--neutral-5, #d9d9d9);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.hnn {
+  color: rgba(0, 0, 0, 0.85);
+  text-align: left;
+  font: 400 14px/22px "Roboto", sans-serif;
+  position: absolute;
+  left: 24px;
+  top: -0.36px;
+  width: 30px;
+}
+.frame5 {
+  width: 80px;
+  height: 22px;
+  position: absolute;
+  left: 146px;
+  top: 0px;
+}
+.hnz {
+  color: rgba(0, 0, 0, 0.85);
+  text-align: left;
+  font: 400 14px/22px "Roboto", sans-serif;
+  position: absolute;
+  left: 24px;
+  top: -0.36px;
+  width: 48px;
+}
+.channels- {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/22px "Roboto", sans-serif;
+  position: absolute;
+  left: 12px;
+  top: 129px;
+  width: 112px;
+  height: 24px;
+}
